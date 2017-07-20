@@ -1,0 +1,199 @@
+@import url("common.css");
+/*手机屏*/
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        height: auto;
+        padding: 0 15px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+
+    .container > .row {
+        height: auto;
+        overflow: hidden;
+        margin: 0 -15px;
+    }
+
+    .container > .row > .col-xs-1 {
+        float: left;
+        width: 8.333333333%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-2 {
+        float: left;
+        width: 16.6666666666%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-3 {
+        float: left;
+        width: 25%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-4 {
+        float: left;
+        width: 33.333333333%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-5 {
+        float: left;
+        width: 41.6666666666%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-6 {
+        float: left;
+        width: 50%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-7 {
+        float: left;
+        width: 58.333333333%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-8 {
+        float: left;
+        width: 66.6666666666%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-9 {
+        float: left;
+        width: 75%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-10 {
+        float: left;
+        width: 83.3333333333%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-11 {
+        float: left;
+        width: 91.6666666666%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-12 {
+        float: left;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .container > .row > .col-xs-hidden {
+        display: none;
+    }
+
+    .container > .row > .col-xs-offset-1 {
+        margin-left: 8.333333333%;
+    }
+
+    .container > .row > .col-xs-offset-2 {
+        margin-left: 16.666666666%;
+    }
+
+    .container > .row > .col-xs-offset-3 {
+        margin-left: 25%;
+    }
+
+    .container > .row > .col-xs-offset-4 {
+        margin-left: 33.333333333%;
+    }
+
+    .container > .row > .col-xs-offset-5 {
+        margin-left: 41.666666666%;
+    }
+
+    .container > .row > .col-xs-offset-6 {
+        margin-left: 50%;
+    }
+
+    .container > .row > .col-xs-offset-7 {
+        margin-left: 58.3333333%;
+    }
+
+    .container > .row > .col-xs-offset-8 {
+        margin-left: 66.666666666%;
+    }
+
+    .container > .row > .col-xs-offset-9 {
+        margin-left: 75%;
+    }
+
+    .container > .row > .col-xs-offset-10 {
+        margin-left: 83.33333333%;
+    }
+
+    .container > .row > .col-xs-offset-11 {
+        margin-left: 91.666666666%;
+    }
+
+    .container > .row > .col-xs-offset-12 {
+        margin-left: 100%;
+    }
+    /*banner开始*/
+    div[class="banner"]{
+        height:495px;
+    }
+    div[class="banner"]:after{
+        font-size:32px;
+    }
+    div[class="nav"]{
+        height:51px;
+    }
+    div[class="nav-left"]{
+        font-size:28px;
+    }
+    ul[class="big"]{
+        display:none;
+    }
+    /*banner结束*/
+    /*skill开始*/
+    div[id="skill-right"]{
+        margin-bottom:15px;
+    }
+    /*skill结束*/
+}

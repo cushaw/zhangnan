@@ -1,0 +1,392 @@
+@import url("common.css");
+/*通用*/
+@font-face {
+    font-family: 'zn';
+    src: url('iconfont.eot');
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+    url('iconfont.woff') format('woff'),
+    url('iconfont.ttf') format('truetype'),
+    url('iconfont.svg#iconfont') format('svg');
+}
+@keyframes banner1{
+    0%{
+        opacity:1;
+    }
+    100%{
+        opacity:0;
+    }
+}
+@keyframes banner2{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@keyframes bar1{
+     0%{
+         width:0;
+     }
+     100%{
+         width:68%;
+     }
+ }
+@keyframes bar2{
+    0%{
+        width:0;
+    }
+    100%{
+        width:52%;
+    }
+}
+@keyframes bar3{
+    0%{
+        width:0;
+    }
+    100%{
+        width:85%;
+    }
+}
+@keyframes bar4{
+    0%{
+        width:0;
+    }
+    100%{
+        width:76%;
+    }
+}
+/*banner开始*/
+div[class="banner"]{
+    width:100%;
+    margin-bottom:15px;
+    background-image:url(../img/7.jpg);
+    background-position:center center;
+    position:relative;
+}
+div[class="banner"]:before{
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(188,188,188,0.5);
+
+}
+div[class*="text"]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    position:absolute;
+    left:0;
+    top:50%;
+    z-index:2;
+    text-align:center;
+    color:#fff;
+    font-size:32px;
+}
+div[class*="text1"]{
+    opacity:0;
+    animation:banner2 2s linear 3s 1 alternate forwards;
+}
+div[class*="text2"]{
+    opacity:1;
+    animation:banner1 2s linear 1s 1 alternate forwards;
+}
+div[class="banner"]:after{
+    content:"It's me.";
+    display:block;
+    width:50%;
+    height:auto;
+    border-bottom:1px solid #fff;
+    overflow:hidden;
+    text-align:center;
+    color:#fff;
+    font-weight:bold;
+    position:absolute;
+    left:25%;
+    top:35%;
+}
+div[class="nav"]{
+    width:100%;
+    position:absolute;
+    left:0;
+    top:15px;
+    border-bottom:1px solid #fff;
+}
+div[class="nav-left"]{
+    float:left;
+    width:auto;
+    overflow:hidden;
+    height:100%;
+    color:#fff;
+    font-family:'Cinzel', serif;
+}
+div[class="nav-right"] > ul{
+    width:auto;
+    overflow:hidden;
+    height:100%;
+}
+div[class="nav-right"] > ul >li{
+    float:right;
+    width:auto;
+    height:100%;
+    padding:15px;
+    box-sizing:border-box;
+}
+div[class="nav-right"] > ul >li:hover{
+    border-top:2px solid #fff;
+}
+div[class="nav-right"] > ul >li > a{
+    color:#fff;
+}
+ul[class="small"] > li > a{
+    font-family:"zn";
+    font-size:24px;
+}
+/*banner结束*/
+/*标题开始*/
+p[class="text"]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin-bottom:30px;
+    font-size:36px;
+    color:#757575;
+    text-align:center;
+    font-family:'Cinzel', serif;
+}
+p[class="text2"]{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin-bottom:15px;
+    font-size:20px;
+    color:#757575;
+    text-align:center;
+    font-family:'Cinzel', serif;
+}
+/*标题结束*/
+/*skill开始*/
+div[id]{
+    height:auto;
+    overflow:hidden;
+    background:#a5d3e1;
+    background-clip:content-box;
+}
+div[id="skill-left"] div{
+    width:200px;
+    height:200px;
+    margin:50px auto;
+    background-image:url("../img/333.jpg");
+    background-position:center center;
+    background-size:cover;
+    border-radius:50%;
+}
+div[id="skill-left"] p{
+    width:100%;
+    height:30px;
+    margin-bottom:20px;
+    text-align:center;
+    font-size:25px;
+    color:#000;
+    font-family:'Cinzel', serif;
+}
+div[id="skill-left"] p:last-child{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+div[id="skill-left"] p:last-child > a{
+    display:block;
+    width:33.3333%;
+    float:left;
+    font-family:"zn";
+    color:#000;
+    transition:all 0.5s;
+    margin:10px 0;
+}
+div[id="skill-left"] p:last-child > a:nth-child(1):hover{
+    color: #418f2c;
+    margin:5px 0;
+}
+div[id="skill-left"] p:last-child > a:nth-child(2):hover{
+    color: #e67816;
+    margin:5px 0;
+}
+div[id="skill-left"] p:last-child > a:nth-child(3):hover{
+    color: #3299dc;
+    margin:5px 0;
+}
+div[id="skill-right"] > p:nth-child(1){
+    width:100%;
+    height:50px;
+    margin:25px 0;
+    text-align:center;
+    line-height:50px;
+    font-size:30px;
+    color: #fff;
+    font-family:'Cinzel', serif;
+}
+div[id="skill-right"] > p:nth-child(2){
+    width:100%;
+    height:50px;
+    margin:30px 0;
+    padding:0 10px;
+    box-sizing:border-box;
+    text-align:center;
+    font-size:16px;
+    color:#fff;
+}
+div[id="skill-right"] > ul > li{
+    display:block;
+    width:100%;
+    height:50px;
+    margin:20px 0;
+    padding:0 20px;
+    box-sizing:border-box;
+    transition:all 2s;
+}
+div[id="skill-right"] > ul > li > div{
+    float:left;
+    width:60%;
+    height:2px;
+    margin:24px 0;
+    background:#fff;
+    position:relative;
+}
+div[id="skill-right"] > ul > li > div > div{
+    height:2px;
+    z-index:2;
+    position:absolute;
+    left:0;
+    top:0;
+}
+div[id="skill-right"] > ul > li > div > div.bar1{
+    width:0;
+    background:#184085;
+    animation:bar1 4s linear 0s 1 forwards;
+}
+div[id="skill-right"] > ul > li > div > div.bar2{
+    width:0;
+    background:#f1b25b;
+    animation:bar2 4s linear 0s 1 forwards;
+}
+div[id="skill-right"] > ul > li > div > div.bar3{
+    width:0;
+    background:#e54d26;
+    animation:bar3 4s linear 0s 1 forwards;
+}
+div[id="skill-right"] > ul > li > div > div.bar4{
+    width:0;
+    background:#9b7cb5;
+    animation:bar4 4s linear 0s 1 forwards;
+}
+div[id="skill-right"] > ul > li > p{
+    float:left;
+    width:20%;
+    height:100%;
+    text-align:center;
+    margin-top:13px;
+    font-size:16px;
+    color:#000;
+    /*font-family:'Cinzel', serif;*/
+}
+/*skill结束*/
+/*protfolio开始*/
+div.protfolio{
+    background:#757575;
+    background-clip:content-box;
+    margin-bottom:15px;
+}
+div.protfolio > a{
+    display:block;
+    width:100%;
+    height:300px;
+    color:#a5d3e1;
+    font-size:20px;
+    text-align:center;
+    line-height:300px;
+    background:rgba(0,0,0,0.5);
+    opacity:0;
+    transform:scale(0.8);
+    transition:all 0.5s;
+}
+div.protfolio:hover  a.more{
+    opacity:1;
+    transform:scale(1);
+}
+/*protfolio结束*/
+/*联系开始*/
+div.footer{
+    background:#a5d3e1;
+}
+div.touch{
+    padding:5px;
+    margin-bottom:15px;
+}
+div.touch:first-of-type > form {
+    width:70%;
+    height:auto;
+    overflow:hidden;
+    padding:10px;
+    margin:15px auto;
+    border-bottom:1px solid #000;
+}
+div.touch:first-of-type > form > input{
+    display:block;
+    width:100%;
+    height:50px;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #e9e9e9;
+    box-sizing:border-box;
+}
+div.touch:first-of-type > form > input:last-child{
+    display:block;
+    width:20%;
+    background:#e9e9e9;
+    transition:all 0.5s;
+}
+div.touch:first-of-type > form > input:last-child:hover{
+    background:#a5d3e1;
+}
+div.touch:first-of-type > form > textarea{
+    display:block;
+    width:100%;
+    height:100px;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #e9e9e9;
+    box-sizing:border-box;
+    resize:vertical;
+    font-size:18px;
+    color:#555;
+}
+div.touch:last-of-type > p{
+    width:100%;
+    height:50px;
+    margin:5px 0;
+    font-size:18px;
+    text-align:center;
+    line-height:50px;
+    color:#e9e9e9;
+}
+div.touch:last-of-type > p > span{
+    font-family:"zn";
+    color:#000;
+    font-size:26px;
+}
+a.last{
+    display:block;
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    font-family:"zn";
+    color:#000;
+    font-size:30px;
+    text-align:center;
+}
+/*联系结束*/

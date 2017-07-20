@@ -1,0 +1,173 @@
+@import url("common.css");
+/*小屏（768,992）*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .container{
+        width:750px;
+        height:auto;
+        padding:0 15px;
+        box-sizing:border-box;
+        margin:0 auto;
+    }
+    .container > .row{
+        height:auto;
+        overflow:hidden;
+        margin:0 -15px;
+    }
+    .container > .row > .col-sm-1{
+        float:left;
+        width:8.333333333%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-2{
+        float:left;
+        width:16.6666666666%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-3{
+        float:left;
+        width:25%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-4{
+        float:left;
+        width:33.333333333%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-5{
+        float:left;
+        width:41.6666666666%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-6{
+        float:left;
+        width:50%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-7{
+        float:left;
+        width:58.333333333%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-8{
+        float:left;
+        width:66.6666666666%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-9{
+        float:left;
+        width:75%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-10{
+        float:left;
+        width:83.3333333333%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-11{
+        float:left;
+        width:91.6666666666%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-12{
+        float:left;
+        width:100%;
+        height:auto;
+        overflow:hidden;
+        padding:0 15px;
+        box-sizing:border-box;
+    }
+    .container > .row > .col-sm-hidden{
+        display:none;
+    }
+    .container > .row > .col-sm-offset-1{
+        margin-left:8.333333333%;
+    }
+    .container > .row > .col-sm-offset-2{
+        margin-left:16.666666666%;
+    }
+    .container > .row > .col-sm-offset-3{
+        margin-left:25%;
+    }
+    .container > .row > .col-sm-offset-4{
+        margin-left:33.333333333%;
+    }
+    .container > .row > .col-sm-offset-5{
+        margin-left:41.666666666%;
+    }
+    .container > .row > .col-sm-offset-6{
+        margin-left:50%;
+    }
+    .container > .row > .col-sm-offset-7{
+        margin-left:58.3333333%;
+    }
+    .container > .row > .col-sm-offset-8{
+        margin-left:66.666666666%;
+    }
+    .container > .row > .col-sm-offset-9{
+        margin-left:75%;
+    }
+    .container > .row > .col-sm-offset-10{
+        margin-left:83.33333333%;
+    }
+    .container > .row > .col-sm-offset-11{
+        margin-left:91.666666666%;
+    }
+    .container > .row > .col-sm-offset-12{
+        margin-left:100%;
+    }
+    /*banner开始*/
+    div[class="banner"]{
+        height:595px;
+    }
+    div[class="banner"]:after{
+        font-size:46px;
+    }
+    div[class="nav"]{
+        height:51px;
+    }
+    div[class="nav-left"]{
+        font-size:34px;
+    }
+    ul[class="big"]{
+        display:none;
+    }
+    /*banner结束*/
+    /*skill开始*/
+    div[id="skill-right"]{
+        margin-bottom:15px;
+    }
+    /*skill结束*/
+}
