@@ -8,54 +8,6 @@
     url('iconfont.ttf') format('truetype'),
     url('iconfont.svg#iconfont') format('svg');
 }
-@keyframes banner1{
-    0%{
-        opacity:1;
-    }
-    100%{
-        opacity:0;
-    }
-}
-@keyframes banner2{
-    0%{
-        opacity:0;
-    }
-    100%{
-        opacity:1;
-    }
-}
-@keyframes bar1{
-     0%{
-         width:0;
-     }
-     100%{
-         width:68%;
-     }
- }
-@keyframes bar2{
-    0%{
-        width:0;
-    }
-    100%{
-        width:52%;
-    }
-}
-@keyframes bar3{
-    0%{
-        width:0;
-    }
-    100%{
-        width:85%;
-    }
-}
-@keyframes bar4{
-    0%{
-        width:0;
-    }
-    100%{
-        width:76%;
-    }
-}
 /*banner开始*/
 div[class="banner"]{
     width:100%;
@@ -87,14 +39,6 @@ div[class*="text"]{
     color:#fff;
     font-size:32px;
 }
-div[class*="text1"]{
-    opacity:0;
-    animation:banner2 2s linear 3s 1 alternate forwards;
-}
-div[class*="text2"]{
-    opacity:1;
-    animation:banner1 2s linear 1s 1 alternate forwards;
-}
 div[class="banner"]:after{
     content:"It's me.";
     display:block;
@@ -123,28 +67,6 @@ div[class="nav-left"]{
     height:100%;
     color:#fff;
     font-family:'Cinzel', serif;
-}
-div[class="nav-right"] > ul{
-    width:auto;
-    overflow:hidden;
-    height:100%;
-}
-div[class="nav-right"] > ul >li{
-    float:right;
-    width:auto;
-    height:100%;
-    padding:15px;
-    box-sizing:border-box;
-}
-div[class="nav-right"] > ul >li:hover{
-    border-top:2px solid #fff;
-}
-div[class="nav-right"] > ul >li > a{
-    color:#fff;
-}
-ul[class="small"] > li > a{
-    font-family:"zn";
-    font-size:24px;
 }
 /*banner结束*/
 /*标题开始*/
@@ -180,7 +102,7 @@ div[id="skill-left"] div{
     width:200px;
     height:200px;
     margin:50px auto;
-    background-image:url("../img/333.jpg");
+    background-image:url("../img/me.jpg");
     background-position:center center;
     background-size:cover;
     border-radius:50%;
@@ -194,31 +116,46 @@ div[id="skill-left"] p{
     color:#000;
     font-family:'Cinzel', serif;
 }
-div[id="skill-left"] p:last-child{
+p.contacts{
     width:100%;
     height:auto;
     overflow:hidden;
 }
-div[id="skill-left"] p:last-child > a{
+p.contacts > a{
     display:block;
-    width:33.3333%;
+    width:50%;
     float:left;
     font-family:"zn";
     color:#000;
     transition:all 0.5s;
-    margin:10px 0;
+    margin-top:5px;
+    position:relative;
 }
-div[id="skill-left"] p:last-child > a:nth-child(1):hover{
+a.weixin::before{
+    content:"nangua-666";
+    position:absolute;
+    left:50%;
+    margin-left:-20px;
+    bottom:-22px;
+    font-size:10px;
+    color:#333;
+}
+a.qq::before{
+    content:"812779014";
+    position:absolute;
+    left:50%;
+    margin-left:-20px;
+    bottom:-22px;
+    font-size:10px;
+    color:#333;
+}
+a.weixin:hover{
     color: #418f2c;
-    margin:5px 0;
+    margin-top:-22px;
 }
-div[id="skill-left"] p:last-child > a:nth-child(2):hover{
+a.qq:hover{
     color: #e67816;
-    margin:5px 0;
-}
-div[id="skill-left"] p:last-child > a:nth-child(3):hover{
-    color: #3299dc;
-    margin:5px 0;
+    margin-top:-22px;
 }
 div[id="skill-right"] > p:nth-child(1){
     width:100%;
@@ -230,69 +167,34 @@ div[id="skill-right"] > p:nth-child(1){
     color: #fff;
     font-family:'Cinzel', serif;
 }
-div[id="skill-right"] > p:nth-child(2){
+ul.skills{
     width:100%;
-    height:50px;
-    margin:30px 0;
-    padding:0 10px;
+    height:auto;
+    overflow:hidden;
+}
+ul.skills > li{
+    float:left;
+    width:25%;
+    padding:50px;
     box-sizing:border-box;
     text-align:center;
-    font-size:16px;
-    color:#fff;
+    height:auto;
 }
-div[id="skill-right"] > ul > li{
-    display:block;
+ul.skills > li >span{
+    display:inline-block;
     width:100%;
-    height:50px;
-    margin:20px 0;
-    padding:0 20px;
-    box-sizing:border-box;
-    transition:all 2s;
+    height:75px;
+    border-radius:50%;
+    line-height:75px;
+    background:#eee;
+    cursor:pointer;
+    font-size:13px;
+    color:#333;
+    transition:all 0.5s;
 }
-div[id="skill-right"] > ul > li > div{
-    float:left;
-    width:60%;
-    height:2px;
-    margin:24px 0;
-    background:#fff;
-    position:relative;
-}
-div[id="skill-right"] > ul > li > div > div{
-    height:2px;
-    z-index:2;
-    position:absolute;
-    left:0;
-    top:0;
-}
-div[id="skill-right"] > ul > li > div > div.bar1{
-    width:0;
-    background:#184085;
-    animation:bar1 4s linear 0s 1 forwards;
-}
-div[id="skill-right"] > ul > li > div > div.bar2{
-    width:0;
-    background:#f1b25b;
-    animation:bar2 4s linear 0s 1 forwards;
-}
-div[id="skill-right"] > ul > li > div > div.bar3{
-    width:0;
-    background:#e54d26;
-    animation:bar3 4s linear 0s 1 forwards;
-}
-div[id="skill-right"] > ul > li > div > div.bar4{
-    width:0;
-    background:#9b7cb5;
-    animation:bar4 4s linear 0s 1 forwards;
-}
-div[id="skill-right"] > ul > li > p{
-    float:left;
-    width:20%;
-    height:100%;
-    text-align:center;
-    margin-top:13px;
-    font-size:16px;
-    color:#000;
-    /*font-family:'Cinzel', serif;*/
+ul.skills > li >span:hover{
+    background:#e67816;
+    transform:translateY(-10px);
 }
 /*skill结束*/
 /*protfolio开始*/
@@ -300,6 +202,16 @@ div.protfolio{
     background:#757575;
     background-clip:content-box;
     margin-bottom:15px;
+    position:relative;
+}
+div.protfolio > img{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    border-left:15px solid #fff;
+    border-right:15px solid #fff;
+    box-sizing:border-box;
 }
 div.protfolio > a{
     display:block;
