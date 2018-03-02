@@ -18,7 +18,7 @@
     .container > .row > .col-xs-1 {
         float: left;
         width: 8.333333333%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -27,7 +27,7 @@
     .container > .row > .col-xs-2 {
         float: left;
         width: 16.6666666666%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -36,7 +36,7 @@
     .container > .row > .col-xs-3 {
         float: left;
         width: 25%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -45,7 +45,7 @@
     .container > .row > .col-xs-4 {
         float: left;
         width: 33.333333333%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -54,7 +54,7 @@
     .container > .row > .col-xs-5 {
         float: left;
         width: 41.6666666666%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -63,7 +63,7 @@
     .container > .row > .col-xs-6 {
         float: left;
         width: 50%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -72,7 +72,7 @@
     .container > .row > .col-xs-7 {
         float: left;
         width: 58.333333333%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -81,7 +81,7 @@
     .container > .row > .col-xs-8 {
         float: left;
         width: 66.6666666666%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -90,7 +90,7 @@
     .container > .row > .col-xs-9 {
         float: left;
         width: 75%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -99,7 +99,7 @@
     .container > .row > .col-xs-10 {
         float: left;
         width: 83.3333333333%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -108,7 +108,7 @@
     .container > .row > .col-xs-11 {
         float: left;
         width: 91.6666666666%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;
@@ -117,7 +117,7 @@
     .container > .row > .col-xs-12 {
         float: left;
         width: 100%;
-        height: auto;
+        /*height: auto;*/
         overflow: hidden;
         padding: 0 15px;
         box-sizing: border-box;

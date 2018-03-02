@@ -78,7 +78,7 @@ p[class="text"]{
     font-size:36px;
     color:#757575;
     text-align:center;
-    font-family:'Cinzel', serif;
+    font-family:'微软雅黑', serif;
 }
 p[class="text2"]{
     width:100%;
@@ -151,11 +151,11 @@ a.qq::before{
 }
 a.weixin:hover{
     color: #418f2c;
-    margin-top:-22px;
+    margin-top:-24px;
 }
 a.qq:hover{
     color: #e67816;
-    margin-top:-22px;
+    margin-top:-24px;
 }
 div[id="skill-right"] > p:nth-child(1){
     width:100%;
@@ -183,9 +183,9 @@ ul.skills > li{
 ul.skills > li >span{
     display:inline-block;
     width:100%;
-    height:75px;
+    height:80px;
     border-radius:50%;
-    line-height:75px;
+    line-height:80px;
     background:#eee;
     cursor:pointer;
     font-size:13px;
@@ -203,30 +203,42 @@ div.protfolio{
     background-clip:content-box;
     margin-bottom:15px;
     position:relative;
+    overflow: hidden;
+    height:300px;
+    padding:0!important;
+    border:1px solid #fff;
 }
 div.protfolio > img{
     position:absolute;
     left:0;
+    right:0;
+    bottom:0;
     top:0;
-    width:100%;
-    border-left:15px solid #fff;
+    margin:auto;
+    height:100%;
+    max-width: 390px;
+    /*border-left:15px solid #fff;
     border-right:15px solid #fff;
-    box-sizing:border-box;
+    box-sizing:border-box;*/
 }
-div.protfolio > a{
-    display:block;
+.protfolio .proconbox{
+	position:absolute;
+	left:0;
+	top:0;
     width:100%;
-    height:300px;
-    color:#a5d3e1;
+    height:100%;
+    color:#fff;
     font-size:20px;
     text-align:center;
     line-height:300px;
+    padding:0 15px;
+    box-sizing: border-box;
     background:rgba(0,0,0,0.5);
     opacity:0;
     transform:scale(0.8);
     transition:all 0.5s;
 }
-div.protfolio:hover  a.more{
+div.protfolio:hover  .proconbox{
     opacity:1;
     transform:scale(1);
 }
