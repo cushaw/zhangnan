@@ -64,10 +64,6 @@
                         tooltip = $('<div class="ace-tooltip"></div>');
 
                         // Init vars
-                        const ar = {
-                            name: '张楠',
-                            age: 'ss',
-                        }
                         var top = current.offset().top;
                         var left = current.offset().left;
                         var right = left + current.outerWidth();
